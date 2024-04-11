@@ -85,7 +85,7 @@ chmod -R ugo+rw storage
 ## Usage
 
 The following routes are available for interacting with tasks:
-List Tasks
+### List Tasks
 
 ```bash
 GET /task/list

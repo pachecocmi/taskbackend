@@ -94,27 +94,27 @@ GET /task/list
 This route retrieves a list of tasks. You can optionally provide a query parameter status to filter tasks by status.
 
 
-Create Task
+### Create Task
 
 ```bash
 POST /task/create
 ```
 Use this route to create a new task. The request should include a JSON body with description field for the task description.
-Update Task
+### Update Task
 
 ```bash
 POST /task/update
 ```
 
 Update an existing task by providing the id of the task to be updated along with the new description field in the request body.
-Complete Task
+### Complete Task
 
 ```bash
 POST /task/complete
 ```
 
 Mark a task as completed by providing the id of the task to be marked as completed in the request body.
-Delete Task
+### Delete Task
 
 ```bash
 POST /task/delete

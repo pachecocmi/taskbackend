@@ -9,7 +9,7 @@ Follow the steps below to set up the project on your local machine:
 Clone the project repository into any directory of your choice:
 
 ```bash
-git clone [project_repository_url]
+git clone https://github.com/pachecocmi/taskbackend.git
 ```
 ### 2. Set Up Laradock
 

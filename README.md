@@ -88,7 +88,7 @@ The following routes are available for interacting with tasks:
 ### List Tasks
 
 ```bash
-GET /task/list
+POST /api/task/list
 ```
 
 This route retrieves a list of tasks. You can optionally provide a query parameter status to filter tasks by status.
@@ -97,27 +97,27 @@ This route retrieves a list of tasks. You can optionally provide a query paramet
 ### Create Task
 
 ```bash
-POST /task/create
+POST /api/task/create
 ```
 Use this route to create a new task. The request should include a JSON body with description field for the task description.
 ### Update Task
 
 ```bash
-POST /task/update
+POST /api/task/update
 ```
 
 Update an existing task by providing the id of the task to be updated along with the new description field in the request body.
 ### Complete Task
 
 ```bash
-POST /task/complete
+POST /api/task/complete
 ```
 
 Mark a task as completed by providing the id of the task to be marked as completed in the request body.
 ### Delete Task
 
 ```bash
-POST /task/delete
+POST /api/task/delete
 ```
 
 Delete a task by providing the id of the task to be deleted in the request body.

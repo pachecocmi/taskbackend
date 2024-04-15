@@ -26,7 +26,7 @@ class TaskController extends Controller
         try {
             // validate status request for listing.
             $args = $request->validate([
-                'status' => 'sometimes|required|numeric|in:1,2',
+                'status' => 'sometimes|required|numeric|in:0,1',
             ]);
 
             $response = $query->tasks($args);
